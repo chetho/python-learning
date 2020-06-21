@@ -16,7 +16,7 @@ if __name__ == '__main__':
             il = True
         elif i.isupper():
             iu = True
-        if al and nu:
+        if al or nu:
             alnu = True
         else:
             alnu = False
